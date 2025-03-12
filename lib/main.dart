@@ -73,7 +73,7 @@ class _PokeCatchScreenState extends State<PokeCatchScreen> {
             _pokemonImageUrl != null
                 ? Column(
               children: [
-                Image.network(_pokemonImageUrl!, width: 200, height: 200),
+                Image.network(_pokemonImageUrl!, width: 300, height: 300),
                 const SizedBox(height: 10),
                 Text(_pokemonName ?? '', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
               ],
